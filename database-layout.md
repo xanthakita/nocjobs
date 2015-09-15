@@ -4,98 +4,76 @@ It is assumed that mySql will be the database used and all SQL will be mysql com
 ## Tables
 
 ### Company
-...
-id
-name
-street
-phone
-ts
-...
+	id
+	name
+	street
+	phone
+	ts
 
 ### City
-...
-id
-name
-stateId
-ts
-...
+	id
+	name
+	stateId
+	ts
 
 ### State
-...
-id
-fullname
-shortname
-ts
-...
+	id
+	fullname
+	shortname
+	ts
 
 ### Zipcode
-...
-id
-code
-stateId
-cityId
-ts
-...
+	id
+	code
+	stateId
+	cityId
+	ts
 
 ### JobType
-...
-id
-name
-ts
-...
+	id
+	name
+	ts
 
 ### People
-...
-id
-firstname
-lastname
-street
-phone
-cityId
-stateId
-zipId
-classId
-ts
-...
+	id
+	firstname
+	lastname
+	street
+	phone
+	cityId
+	stateId
+	zipId
+	classId
+	ts
 
 ### Classes
-...
-id
-className (recruiter, jobseeker, indicidual)
-ts
-...
+	id
+	className (recruiter, jobseeker, indicidual)
+	ts
 
 ### RecruiterCompany
-...
-id
-companyName
-ts
-...
+	id
+	companyName
+	ts
 
 ### Employees
-...
-id
-companyId
-peopleId
-ts
-...
+	id
+	companyId
+	peopleId
+	ts
 
 ### Jobs
-...
-id
-position
-jobTypeId
-ts
-...
+	id
+	position
+	jobTypeId
+	ts
 
 ### JobLists
-...
-id
-jobsId
-postedDate
-removedDate
-filled (y/n)
-ts
-...
+	id
+	jobsId
+	postedDate
+	removedDate
+	filled (y/n)
+	ts
 
 This is a preliminry idea and will be adjusted. this document should be kept up to date.
